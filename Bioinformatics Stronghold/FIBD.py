@@ -8,11 +8,11 @@ F = [1,1]
 
 for i in range(2,k):
     F.append(F[i-1]+F[i-2])
-    print(i,F)
 
 F.append(F[i]+F[i-1]-1)
 
 for i in range(k,n-1):
     F.append(F[i]+F[i-1]-F[i-k])
-    print(i,F)
-print(F)
+
+with open('submission.txt','w') as f:
+    f.write(f"{F[n-1]}")
