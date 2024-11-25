@@ -11,7 +11,7 @@ PXGY = {"AAAA":1.,
         "AAaa":1.,
         "AaAa":.75,
         "Aaaa":.5,
-        "aaaa":0.,}
+        "aaaa":0.}
 
 # And to get P(Y_i) we take the combinations
 PY = {"AAAA":(k*(k-1))/(pop*(pop-1)),
