@@ -1,6 +1,7 @@
 with open('rosalind_iev.txt','r') as f:
     pop = [int(x) for x in f.read().strip().split(" ")]
 
+n_kids = 2
 # We want the average of kids with 
 Population = {
 "AAAA":pop[0],
@@ -20,7 +21,7 @@ PXGY = {
 "aaaa":0.
 }
 
-result = sum([2*Population[key]*PXGY[key] for key in Population.keys()])
+result = sum([n_kids*Population[key]*PXGY[key] for key in Population.keys()])
 
 with open('submission.txt','w') as f:
     f.write(f'{result:.1f}')
