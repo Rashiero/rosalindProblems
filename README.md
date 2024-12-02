@@ -1,6 +1,6 @@
 # Rosalind.info
 
-(rosalind.info)[https://www.rosalind.info/about/] is a project aiming to aid the learning bioinformatics via problem solving. In its plataform there are several classical computational problems that arise in modern biology. This repo is a collection of solves for the problems in the website.
+[rosalind.info](https://www.rosalind.info/about/) is a project aiming to aid the learning bioinformatics via problem solving. In its plataform there are several classical computational problems that arise in modern biology. This repo is a collection of solves for the problems in the website.
 
 There are five groups of problems, Python Village, Bioinformatics Stronghold, Bioinformatics Textbook Track, Bioinformatics Armory and Algorithmic Heights. 
 
