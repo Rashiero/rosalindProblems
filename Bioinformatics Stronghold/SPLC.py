@@ -49,7 +49,9 @@ for pattern in introns.values():
 mrna = mrna.replace('T','U')
 prot=''
 for i in range(len(mrna)//3):
-    prot+=codon_table[mrna[3*i:3*(i+1)]]
+    current_aa = codon_table[mrna[3*i:3*(i+1)]]
+    if current_aa == 'X': break
+    prot+= current_aa
 
 with open('submission.txt','w') as f:
     f.write(prot)
