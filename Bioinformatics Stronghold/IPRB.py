@@ -4,7 +4,7 @@ with open("rosalind_iprb.txt","r") as f:
 k,m,n = int(k),int(m),int(n)
 pop = k+m+n
 
-# We want the concurrent probability P(X U Y), where X is having a dominant gene and Y are possible parents
+# We want the probability of two events occuring P(X U Y), where X is having a dominant gene and Y are possible parents
 # We have conditional probabilities of X given y (PXGY) from biology
 PXGY = {"AAAA":1.,
         "AAAa":1.,
